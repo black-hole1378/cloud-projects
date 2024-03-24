@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommended Musics</title>
+    <style>
+       .welcome {
+           color: green;
+           font-weight: bolder;
+       }
+    </style>
+</head>
+<body>
+    <h1 class="welcome">Welcome to Music Recognizer App!</h1>
+    <ul>
+        {{range .}}
+           <li>
+              <h3>Music Spotify ID: {{.ID}}</h3>
+               <h3>Music Name: {{.Name}}</h3>
+               <h3><a href="{{.Url}}">Music link</a></h3>
+           </li>
+        {{end}}
+    </ul>
+</body>
+</html>

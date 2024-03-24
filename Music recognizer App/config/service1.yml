@@ -1,0 +1,7 @@
+driver: mysql
+db_username: root
+db_password: x4XpO1P30liHZaYFnnNLwcek
+db_connection: tcp
+host: manaslu.liara.cloud
+port: 34320
+db_name: recursing_benz
